@@ -58,8 +58,6 @@ function imageFrame(v, interval, duration){
         v.find('ul').append(visibleImages);
         var listItems = v.find('ul').find('li');
         var count = 0;
-        var topSlice = listItems.slice(0, imageRowNumber);
-        var bottomSlice = listItems.slice(listItems.length - imageRowNumber - 1, listItems.length);
 
         var bottomPadding = parseInt(headerContentItem.css('padding-bottom')) + newHeight - Math.ceil(headerContentItem.innerHeight());
         headerContentItem.css({
