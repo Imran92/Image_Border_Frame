@@ -1,0 +1,23 @@
+.header-container {
+	background-color: #000;
+	padding-top: 1px;
+	margin-top: -1px;
+	position: relative;
+}
+
+.header-content {
+	color: #fff;
+	background-color: #232323;
+	padding: 40px 50px;
+	/*margin: 10%;*/
+	/*position: relative;
+	z-index: 1000;*/
+	-webkit-box-shadow: 0 0 30px #000 inset;
+	-moz-box-shadow: 0 0 30px #000 inset;
+	box-shadow: 0 0 30px #000 inset;
+}
+
+	.header-content .container {
+		width: 100%;
+	}
+
